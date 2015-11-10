@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Simple JS Calculator</title>
+	<link type="text/stylesheet" rel="stylesheet" href="css/style.css" />
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="wrapper">
+  <h1 id="title">My Simple <span>Vanilla</span> JS Calculator</h1>
+  <p id="levelButtons">
+    <span id="level1button" class="disabled">Level 1</span>
+    <span id="level2button">Level 2</span>
+    <span id="level3button">Level 3</span>
+  <p>
+  <div id="calculator">
+    <div id="answerArea">
+      <p id="answer"></p>
+    </div>
+    <input type="text" placeholder="0" id="inputArea" />
+    <table id="level3" class="hidden" cellspacing="0" cellpadding="0">
+      <tr id="level4" class="hidden">
+        <td>m+</td>
+        <td>mr</td>
+        <td>mc</td>
+      </tr>
+      <tr>
+        <td>&pi;</td>
+        <td>sin</td>
+        <td>x!</td>
+      </tr>
+      <tr>
+        <td>e</td>
+        <td>cos</td>
+        <td>x<sup>y</sup></td>
+      </tr>
+      <tr>
+        <td>log</td>
+        <td>tan</td>
+        <td>&radic;</td>
+      </tr>
+      <tr>
+        <td>ln</td>
+        <td>Ans</td>
+        <td class="operator">Inv</td>
+      </tr>
+    </table>
+    <table id="calcButtons" cellspacing="0" cellpadding="0">
+      <tr id="level2" class="hidden">
+        <td class="wide">AC</td>
+        <td class="wide">&larr;</td>
+        <td class="wide">( )</td>
+        <td class="operator">%</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td class="operator">/</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td class="operator">*</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td class="operator">-</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>.</td>
+        <td id="equals" class="equals">=</td>
+        <td class="operator">+</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<script type="text/javascript" src="js/calculator.js"></script>
+</body>
+</html>
